@@ -1,60 +1,48 @@
-# CodeIgniter 4 Framework
+# Storm Shield 🌪️
 
-## What is CodeIgniter?
+**Storm Shield** is an educational project focused on promoting typhoon preparedness and disaster awareness through an engaging 3D cooperative strategy game. Designed around the Philippine typhoon experience, the project encourages players to understand the importance of preparation, teamwork, and informed decision-making before, during, and after a typhoon.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+This repository contains the website developed to support the Storm Shield project by providing information about the game and its educational objectives.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## 🎯 Project Objectives
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+- Promote awareness of typhoon preparedness and disaster response.
+- Educate players about appropriate safety measures before, during, and after a typhoon.
+- Encourage teamwork, strategic planning, and decision-making through cooperative gameplay.
+- Provide an accessible online platform for presenting the game and its educational purpose.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## ✨ Website Features
 
-## Important Change with index.php
+- **Project Overview** — Introduces Storm Shield, its concept, and its objectives.
+- **Game Information** — Presents the gameplay concept and educational elements.
+- **Typhoon Preparedness** — Supports awareness of safety practices and disaster preparedness.
+- **Responsive Design** — Provides a user-friendly browsing experience across supported devices.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+*Note: Update this section to reflect the features actually implemented on your website.*
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## 🛠️ Technologies Used
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Update this list based on the technologies used to build the website.
 
-## Repository Management
+- **HTML5** — Website structure
+- **CSS3** — Styling and layout
+- **JavaScript** — Interactive functionality
+- **PHP / CodeIgniter 4** — Backend development
+- **PHPMySQL** — Database management
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## 🎮 About the Game
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Storm Shield is designed to make disaster preparedness more engaging through cooperative gameplay and strategic challenges. By simulating typhoon-related situations, the project aims to help players recognize the importance of emergency preparation, coordination, and safety practices.
 
-## Contributing
+## 🎓 Academic Project
 
-We welcome contributions from the community.
+Developed as part of a capstone project at **Far Eastern University – Institute of Technology (FEU Tech)**.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## 👥 Contributors
 
-## Server Requirements
+Add the names of the project members and their respective roles here.
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+## 📄 License
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+This project was developed for academic purposes. Unless otherwise specified, all rights to the project's original code, assets, and content remain with their respective owners.
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
