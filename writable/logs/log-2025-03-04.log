@@ -1,0 +1,34 @@
+CRITICAL - 2025-03-04 07:56:48 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: updates]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\updatesPage.php(20): CodeIgniter\View\View->endSection('content')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\StormShield_website\\app\\Views\\updatesPage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updatesPage', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('updatesPage')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->updates()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:47:19 --> ErrorException: Cannot redeclare App\Controllers\Home::updates()
+[Method: GET, Route: aboutus]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-04 09:47:21 --> ErrorException: Cannot redeclare App\Controllers\Home::updates()
+[Method: GET, Route: updates]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-04 09:47:23 --> ErrorException: Cannot redeclare App\Controllers\Home::updates()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-04 09:47:24 --> ErrorException: Cannot redeclare App\Controllers\Home::updates()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-04 09:47:26 --> ErrorException: Cannot redeclare App\Controllers\Home::updates()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
