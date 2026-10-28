@@ -18,8 +18,6 @@ This repository contains the website developed to support the Storm Shield proje
 - **Typhoon Preparedness** — Supports awareness of safety practices and disaster preparedness.
 - **Responsive Design** — Provides a user-friendly browsing experience across supported devices.
 
-*Note: Update this section to reflect the features actually implemented on your website.*
-
 ## 🛠️ Technologies Used
 
 Update this list based on the technologies used to build the website.
@@ -40,7 +38,10 @@ Developed as part of a capstone project at **Far Eastern University – Institut
 
 ## 👥 Contributors
 
-Add the names of the project members and their respective roles here.
+- **John Albert Miguel T. Joson** — Project Manager
+- **Hannah Martha P. Tipo** — Website Designer
+- **Samuel Ghenvic Faith T. Tolentino** — Game Artist and Story Writer
+- **Ezekiel L. Tiratira** — Game and Web Programmer
 
 ## 📄 License
 
